@@ -76,11 +76,11 @@
         <div class="row m-t-50">
             <div class="col-md">
 
-                <a href="https://facebook.com" class="social-icons"><img src='resources/img/facebook.png'></a>
-                <a href="https://twitter.com" class="social-icons"><img src='resources/img/twitter.png'></a>
-                <a href="https://instagram.com" class="social-icons"><img src='resources/img/instagram.png'></a>
-                <a href="https://plus.google.com" class="social-icons"><img src='resources/img/google-plus.png'></a>
-                <a href="https://viber.com" class="social-icons"><img src='resources/img/viber.png'></a>
+                <a href="https://facebook.com" class="social-icons"><img src="{{ asset( 'images/facebook.png' )}}"></a>
+                <a href="https://twitter.com" class="social-icons"><img src="{{ asset( 'images/twitter.png' )}}"></a>
+                <a href="https://instagram.com" class="social-icons"><img src="{{ asset( 'images/instagram.png' )}}"></a>
+                <a href="https://plus.google.com" class="social-icons"><img src="{{ asset( 'images/google-plus.png' )}}"></a>
+                <a href="https://viber.com" class="social-icons"><img src="{{ asset( 'images/viber.png' )}}"></a>
 
             </div>
         </div>
