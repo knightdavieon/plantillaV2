@@ -29,13 +29,20 @@
     bottom: auto;
     color:black;
 }
+
 .custom-card{
 	width: 50%;
 	margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-    background-color: #F4F4F4; /*transparent color #d5f1ea00 */
+    background-color: #d5f1ea00; /*transparent color #d5f1ea00 */
+    border: none;
 }
+
+.custom-card-caption{
+	color:white;
+}
+
 .custom-card-header{
 	background-color: #d5f1ea00;
 	border: none;

@@ -7,7 +7,8 @@
 				<div class="card-header custom-card-header">
 
 				</div>
-				<h5>test</h5>
+				<h1 style="font-family: 'Nunito', sans-serif;" class="custom-card-caption">PLANTILLA DATABASE SYSTEM</h1>
+				<p style="color:white;">Apply a job to a boss. Manage records like a boss</p>
 				<div class="card-header custom-card-header"></div>
 			</div>
 	  	</div>
