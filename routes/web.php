@@ -13,7 +13,10 @@
 
 Route::get('/', function () {
     return view('index');
+
+    return "sample page";
 });
+
 
 // Auth::routes();
 
