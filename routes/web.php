@@ -14,10 +14,15 @@
 Route::get('/', function () {
     return view('index');
 
-    return "sample page";
+
 });
 
+Route::get('/samplepage', function () {
+  
+     return "sample page";
 
+   
+});
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
