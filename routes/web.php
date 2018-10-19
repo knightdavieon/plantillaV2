@@ -13,18 +13,10 @@
 
 Route::get('/', function () {
     return view('index');
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 017994c9946650afaaf739dc4b79a5b8761fa950
 });
 
 Route::get('/samplepage', function () {
-  
-     return "sample page";
-
-   
+     return "sample page";   
 });
 // Auth::routes();
 
