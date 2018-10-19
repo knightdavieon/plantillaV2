@@ -2,3 +2,11 @@
 	background-color: #0375B4;
 	color:white;
 }
+
+.rectangle-img{
+	background-image: url('{{ asset( 'images/biography.jpg' ) }}');
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
