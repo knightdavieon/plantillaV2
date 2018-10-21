@@ -26,10 +26,10 @@
     </ul>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Login</a>
+        <a class="nav-link pointer" data-toggle="modal" data-target="#loginpop">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Sign Up</a>
+        <a class="nav-link pointer" data-toggle="modal" data-target="#signuppop">Sign Up</a>
       </li>
       <button class="btn custombg-color-blue">Employer</button>
 

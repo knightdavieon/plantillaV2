@@ -3,7 +3,7 @@
     /*START OF FOOTER*/
 
     .footer{
-        background-color: #1E6B57;
+        background-color: #024D75;
 
         width: 100%;
         
@@ -50,12 +50,12 @@
         background-color:#F4F4F4;
     }
     .cust-anchor{
-        color:#BDA940;
+        color:white;
         transition: all .2s linear;
     }
     .cust-anchor:hover{
         color:#f4f4f4;
-        text-decoration: none;
+        /*text-decoration: none; */
 
     }
     
@@ -86,7 +86,7 @@
         </div>
         <div class="row m-t-50">
             <div class="col-md">
-                <h5 style="color: #C8A940;">Intergalactic President Space Earth Ambassador</h5>
+                <h5 style="color: white;">Intergalactic President Space Earth Ambassador</h5>
                 <p style="font-size: 12pt; padding-top: 0; color:white;">Zambales</p>
 
             </div>
@@ -111,7 +111,7 @@
         -->
         <hr class="cust-hr" />
     </div>
-<div class="container-fluid foot-pad-bottom" style="background-color: #1E6B57; text-align: center;">
+<div class="container-fluid foot-pad-bottom" style="background-color: #024D75; text-align: center;">
     <h6 style="margin-bottom: 0; color:#F4F4F4;">&copy; Intergalactic President Space Earth Ambassador. All Rights Reserved</h6>
 </div>
 </footer>

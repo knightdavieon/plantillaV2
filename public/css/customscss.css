@@ -1,3 +1,8 @@
+ body, html {
+    height: 100%;
+
+}
+
 .custombg-color-blue{
 	background-color: #0375B4;
 	color:white;
@@ -7,13 +12,20 @@
 
 .custom-carousel {
   width:100%;
-  height:500px;
+  height:100%;
   overflow: hidden;
 
-}
-.custom-carousel-inner > .custom-item > img {
-	background-position: relative;
 
+}
+
+@media (min-width: 1201px){
+    .custom-carousel-inner > .custom-item > img {
+    width:100%;
+    height:500px;
+    background-image: cover;
+    overflow: hidden;
+
+    }
 }
 .overlay {
     position: absolute;
@@ -25,25 +37,67 @@
 }
 
 .custom-carousel-caption {
-    top: 30%;
+    top: 25%;
     bottom: auto;
     color:black;
 }
+
 
 .custom-card{
 	width: 50%;
 	margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-    background-color: #d5f1ea00; /*transparent color #d5f1ea00 */
+    background-color: rgba(244, 244, 244, 0.68); /*transparent color #d5f1ea00 */
     border: none;
 }
 
 .custom-card-caption{
-	color:white;
+	color:black;
 }
 
 .custom-card-header{
 	background-color: #d5f1ea00;
 	border: none;
+}
+
+@media (max-width: 1200px){
+    .custom-carousel {
+      width:100%;
+      height:500px;
+      overflow: hidden;
+
+
+    }
+    .custom-carousel-inner > .custom-item > img {
+
+
+    }
+    .custom-card{
+    width: 100%;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    background-color: rgba(244, 244, 244, 0.68); /*transparent color #d5f1ea00 */
+    border: none;
+    }
+    .custom-carousel-caption {
+    top: 20%;
+    bottom: auto;
+    color:black;
+
+    }
+    h1{
+        font-size: 1.70em;
+    }
+}
+
+.pointer {cursor: pointer;}
+
+.custom-modal-header{
+    border:none;
+}
+
+.forgotpass:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }

@@ -11,11 +11,10 @@
 	<script type="text/javascript" src="/js/app.js"></script>
 </head>
 <body>
-
+@extends('includes.popouts')
 @extends('includes.footer')
 @extends('includes.banner')
 @extends('includes.navbar')
-
 
 </body>
 </html>
