@@ -31,8 +31,8 @@
       <li class="nav-item">
         <a class="nav-link pointer" data-toggle="modal" data-target="#signuppop">Sign Up</a>
       </li>
-      <button class="btn custombg-color-blue">Employer</button>
-
+      <!-- <button class="btn custombg-color-blue">Employer</button>
+ -->
     </ul>
   </div>
 </nav>

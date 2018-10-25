@@ -67,9 +67,10 @@
         <div class="row">
             <div class="col-md">
                 <strong>
-                    <a href="#" class="links cust-anchor"><font size="3">Link</font></a>
-                    <a href="#" class="links cust-anchor"><font size="3">Link</font></a>
-                    <a href="#" class="links cust-anchor"><font size="3">Link</font></a>
+                    <a href="#" class="links cust-anchor"><font size="3">Zambales.gov.ph</font></a>
+                    <a href="#" class="links cust-anchor"><font size="3">Zambalinis</font></a>
+                    <a href="#" class="links cust-anchor"><font size="3">About Us</font></a>
+                    <a href="#" class="links cust-anchor"><font size="3">Contact Us</font></a>
                 </strong>
             </div>
         </div>
