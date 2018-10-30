@@ -1,6 +1,7 @@
 <div class="modal fade" id="loginpop" tabindex="-1" role="dialog" aria-labelledby="loginmodal" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <form>
+      {{ csrf_field() }}
     <div class="modal-content">
       <div class="modal-header custom-modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Login</h5>
@@ -48,7 +49,8 @@
 
 <div class="modal fade" id="signuppop" tabindex="-1" role="dialog" aria-labelledby="loginmodal" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form>
+    <form method="POST" action="/signup">
+      {{ csrf_field() }}
     <div class="modal-content">
       <div class="modal-header custom-modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
@@ -71,6 +73,14 @@
           <input type="text" class="form-control" name="signupusername" placeholder="username" >
         </div>
         <div class="form-group">
+          <div class="row" style="text-align: center;">
+            <div class="col-md-5"><hr/></div>
+            <div class="col-md-2"><label>Email</label></div>
+            <div class="col-md-5"><hr/></div>
+          </div>
+          <input type="text" class="form-control" name="signupemail" placeholder="email" >
+        </div>
+        <div class="form-group">
            <div class="row" style="text-align: center;">
             <div class="col-md-5"><hr/></div>
             <div class="col-md-2"><label>Password</label></div>
@@ -89,7 +99,7 @@
         <hr style="background-color: black;"  />
         <hr />
         <div class="form-group">
-          <button type="submit" class="btn btn-block btn-md custombg-color-blue" name="submit">Sign Up</button>
+          <button type="submit" class="btn btn-block btn-md custombg-color-blue">Sign Up</button>
         </div>
       </div>
       <div class="modal-footer custom-modal-header">

@@ -15,9 +15,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/samplepage', function () {
-     return "sample page";   
-});
+
+Route::post('/signup', 'SignupController@store');
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
